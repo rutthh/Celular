@@ -72,12 +72,19 @@
     transform: translate(-50%);
 }
 
-.screen {
+.pantalla {
+    background-image: url(./Img/cascada.gif);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 280px;
     height: 450px;
-    background-color: rgb(107, 107, 107);
     border-radius: 5px;
     margin: 0 auto;
+}
+
+.pantalla.active {
+    background-image: url(./Img/pantallaapagada.jpg); 
 }
 
 .buttons_down {
@@ -89,97 +96,6 @@
 }
 
 .btn_home {
-    width: 70px;
-    height: 25px;
-    border: 2px solid rgb(151, 151, 151);
-    border-radius: 40px;
-}
-
-.container_mobile1 {
-    width: 300px;
-    height: 570px;
-    border-radius: 40px;
-    background-color: rgb(36, 36, 36);
-    margin: 40px auto;
-}
-
-.box_up1 {
-    width: 100%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-
-.camara1 {
-    display: block;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: rgb(107, 107, 107);
-    margin-left: 40px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.camara1::before {
-    content: "";
-    width: 11px;
-    height: 11px;
-    border-radius: 50%;
-    background-color: rgb(119, 148, 150);
-    position: absolute;
-}
-
-.circles1 {
-    display: block;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color: rgb(107, 107, 107);
-    margin-left: 10px;
-    position: relative;
-}
-.circles1::before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(107, 107, 107);
-    left: 11px;
-    border-radius: 50%;
-}
-.audio_up1 {
-    display: block;
-    width: 60px;
-    height: 7px;
-    border-radius: 20px;
-    background-color: rgb(107, 107, 107);
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-.screen1 {
-    width: 280px;
-    height: 450px;
-    background-color: rgb(107, 107, 107);
-    border-radius: 5px;
-    margin: 0 auto;
-}
-
-.buttons_down1 {
-    width: 100%;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn_home1 {
     width: 70px;
     height: 25px;
     border: 2px solid rgb(151, 151, 151);
