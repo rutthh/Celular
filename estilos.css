@@ -73,7 +73,7 @@
 }
 
 .pantalla {
-    background-image: url(./Img/cascada.gif);
+    background-image: url(./Img/pantallaapagada.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -84,7 +84,7 @@
 }
 
 .pantalla.active {
-    background-image: url(./Img/pantallaapagada.jpg); 
+    background-image: url(./Img/cascada.gif); 
 }
 
 .buttons_down {
